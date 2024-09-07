@@ -10,8 +10,7 @@ import io
 @st.cache_data
 def load_data():
     # Fetch the dataset as a pandas DataFrame
-    housing = fetch_california_housing(as_frame=True)
-    df = housing.frame
+    df = pd.read_csv('data/california_housing_train.csv')
     return df
 
 # Fijar semilla para fines pedagógicos
