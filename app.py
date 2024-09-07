@@ -98,7 +98,7 @@ with st.container():
     st.dataframe(housing["total_rooms"].value_counts())
 
     st.write("""
-    Puedes modificar el argumento "total_romss" a cualquier columna.
+    Puedes modificar el argumento "total_rooms" a cualquier columna.
     A continuación, puedes seleccionar una columna para analizar la frecuencia de sus valores.
     """)
 
