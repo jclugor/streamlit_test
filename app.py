@@ -7,7 +7,7 @@ from sklearn.datasets import fetch_california_housing
 warnings.filterwarnings(action="ignore", message="^internal gelsd")
 import io
 
-@st.cahe_data
+@st.cache_data
 def load_data():
     # Fetch the dataset as a pandas DataFrame
     housing = fetch_california_housing(as_frame=True)
